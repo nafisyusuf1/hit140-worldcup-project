@@ -1,0 +1,485 @@
+# Nafis - Task 4: Age and Physical Workload (FIFA World Cup 2026, HIT140 group project)
+# Source: Sofascore (api.sofascore.com), FIFA World Cup 2026 tournament id 16 / season id 58210. Population = all outfield players (excludes goalkeepers) with >=180 total minutes played across the tournament AND at least one match with tracked physical data (n=482; 2 players with >=180 min were dropped for missing date-of-birth data in the source: Lionel Messi, Kevin Pina). distance_km_per90 = total km covered across tracked matches / (total minutes played / 90). Age computed as of tournament start (2026-06-11).
+player,team,position,age,minutes_played,distance_km_per90,age_group
+Pau Cubarsí,Spain,D,19,750,7.956,Under 25
+Marc Cucurella,Spain,D,27,750,10.058,25 and older
+Alexis Mac Allister,Argentina,M,27,749,8.768,25 and older
+Aymeric Laporte,Spain,D,32,728,7.939,25 and older
+Rodri,Spain,M,29,726,11.169,25 and older
+Kylian Mbappé,France,F,27,698,8.487,25 and older
+Marc Guéhi,England,D,25,669,8.909,25 and older
+Enzo Fernández,Argentina,M,25,663,9.277,25 and older
+Dayot Upamecano,France,D,27,661,9.132,25 and older
+Harry Kane,England,F,32,653,10.169,25 and older
+Michael Olise,France,M,24,650,11.128,Under 25
+Ezri Konsa,England,D,28,647,9.122,25 and older
+Elliot Anderson,England,M,23,634,10.378,Under 25
+Lisandro Martínez,Argentina,D,28,626,3.458,25 and older
+Jude Bellingham,England,M,22,616,10.128,Under 25
+Lamine Yamal,Spain,M,18,615,9.206,Under 25
+Cristian Romero,Argentina,D,28,611,6.739,25 and older
+Jules Koundé,France,D,27,610,9.546,25 and older
+Mikel Oyarzabal,Spain,F,29,605,9.649,25 and older
+Julián Alvarez,Argentina,F,26,601,8.244,25 and older
+Granit Xhaka,Switzerland,M,33,600,8.323,25 and older
+Manuel Akanji,Switzerland,D,30,600,7.104,25 and older
+Nico Elvedi,Switzerland,D,29,600,7.096,25 and older
+Ousmane Dembélé,France,F,29,597,9.531,25 and older
+Remo Freuler,Switzerland,M,34,594,8.555,25 and older
+Adrien Rabiot,France,M,31,585,10.542,25 and older
+Achraf Hakimi,Morocco,D,27,570,9.709,25 and older
+Brandon Mechele,Belgium,D,33,570,8.143,25 and older
+Pedro Porro,Spain,D,26,564,9.496,25 and older
+Neil El Aynaoui,Morocco,M,24,563,10.834,Under 25
+Declan Rice,England,M,27,558,10.218,25 and older
+Nahuel Molina,Argentina,D,28,531,7.859,25 and older
+Ricardo Rodríguez,Switzerland,D,33,519,7.472,25 and older
+Leandro Trossard,Belgium,F,31,510,10.606,25 and older
+Breel Embolo,Switzerland,F,29,506,7.323,25 and older
+Pedri,Spain,M,23,499,11.521,Under 25
+Dani Olmo,Spain,M,28,495,10.116,25 and older
+Rodrigo De Paul,Argentina,M,32,495,7.887,25 and older
+Alex Baena,Spain,M,24,487,9.922,Under 25
+Noussair Mazraoui,Morocco,D,28,486,8.344,25 and older
+Davinson Sánchez,Colombia,D,29,480,8.541,25 and older
+Andrés Cubas,Paraguay,M,30,480,10.928,25 and older
+Sander Berge,Norway,M,28,480,10.881,25 and older
+William Saliba,France,D,25,480,7.001,25 and older
+Kristoffer Ajer,Norway,D,28,480,9.675,25 and older
+Gustavo Gómez,Paraguay,D,33,480,8.394,25 and older
+Mohamed Hany,Egypt,D,30,480,9.096,25 and older
+Jhon Lucumí,Colombia,D,27,479,8.213,25 and older
+Luis Díaz,Colombia,M,29,478,9.567,25 and older
+Timothy Castagne,Belgium,D,30,478,11.101,25 and older
+Issa Diop,Morocco,D,29,477,6.323,25 and older
+Nicolás Tagliafico,Argentina,D,33,477,7.823,25 and older
+Youri Tielemans,Belgium,M,29,475,10.944,25 and older
+Leandro Paredes,Argentina,M,31,473,7.740,25 and older
+Martin Ødegaard,Norway,M,27,471,11.490,25 and older
+Gustavo Puerta,Colombia,M,22,470,10.488,Under 25
+Bilal El Khannouss,Morocco,M,22,466,9.346,Under 25
+Yasser Ibrahim,Egypt,D,33,466,7.190,25 and older
+Erling Haaland,Norway,F,25,465,7.392,25 and older
+Lucas Digne,France,D,32,465,9.255,25 and older
+Brahim Díaz,Morocco,M,26,462,9.372,25 and older
+Nico O'Reilly,England,D,21,462,10.032,Under 25
+Gabriel Magalhães,Brazil,D,28,450,9.428,25 and older
+Marquinhos,Brazil,D,32,450,8.998,25 and older
+Renato Veiga,Portugal,D,22,450,9.266,Under 25
+Alistair Johnston,Canada,D,27,450,9.952,25 and older
+Weston McKennie,USA,M,27,444,11.070,25 and older
+Patrick Berg,Norway,M,28,444,11.475,25 and older
+Torbjørn Heggem,Norway,D,27,444,9.274,25 and older
+Maxim De Cuyper,Belgium,D,25,443,10.394,25 and older
+Douglas Santos,Brazil,D,32,442,10.016,25 and older
+Vinícius Júnior,Brazil,F,25,441,9.357,25 and older
+Cristiano Ronaldo,Portugal,F,41,441,8.592,25 and older
+Juan Cáceres,Paraguay,D,26,439,9.414,25 and older
+Azzedine Ounahi,Morocco,M,26,437,10.573,25 and older
+Marwan Attia,Egypt,M,27,434,10.734,25 and older
+Richie Laryea,Canada,D,31,431,7.403,25 and older
+David Møller Wolfe,Norway,D,24,431,9.601,Under 25
+Roberto Alvarado,Mexico,F,27,430,9.756,25 and older
+Mohamed Salah,Egypt,M,33,428,9.545,25 and older
+Bruno Fernandes,Portugal,M,31,423,10.372,25 and older
+Jonathan David,Canada,F,26,421,10.426,25 and older
+Bruno Guimarães,Brazil,M,28,419,11.174,25 and older
+Julián Quiñones,Mexico,F,29,414,9.441,25 and older
+Jefferson Lerma,Colombia,M,31,412,10.367,25 and older
+Dan Ndoye,Switzerland,M,25,408,7.573,25 and older
+Danilo,Brazil,D,34,405,2.644,25 and older
+Djed Spence,England,D,25,402,9.891,25 and older
+Daniel Muñoz,Colombia,M,30,399,10.236,25 and older
+Anthony Gordon,England,F,25,399,9.280,25 and older
+Désiré Doué,France,F,21,398,10.504,Under 25
+Nuno Mendes,Portugal,D,23,397,8.889,Under 25
+Stephen Eustaquio,Canada,M,29,391,11.267,25 and older
+João Neves,Portugal,M,21,391,11.417,Under 25
+Jan Paul van Hecke,Netherlands,D,26,390,9.002,25 and older
+Alessandro Circati,Australia,D,22,390,9.360,Under 25
+Virgil van Dijk,Netherlands,D,34,390,5.841,25 and older
+Diney Borges,Cabo Verde,D,31,390,9.224,25 and older
+Pico,Cabo Verde,D,33,390,9.099,25 and older
+Johan Mojica,Colombia,D,33,390,9.300,25 and older
+Moussa Niakhaté,Senegal,D,30,390,7.064,25 and older
+Denzel Dumfries,Netherlands,M,30,390,9.637,25 and older
+Harry Souttar,Australia,D,27,390,8.682,25 and older
+Krépin Diatta,Senegal,M,27,390,9.969,25 and older
+Junior Alonso,Paraguay,D,33,390,9.411,25 and older
+Matías Galarza,Paraguay,M,24,388,10.677,Under 25
+Kevin De Bruyne,Belgium,M,34,387,10.258,25 and older
+Julio Enciso,Paraguay,M,22,387,10.379,Under 25
+Manu Koné,France,M,25,386,10.194,25 and older
+Ismael Saibari,Morocco,M,25,385,10.202,25 and older
+Bradley Barcola,France,F,23,384,9.448,Under 25
+Ayyoub Bouaddi,Morocco,M,18,384,10.566,Under 25
+Vitinha,Portugal,M,26,381,10.557,25 and older
+Jhon Arias,Colombia,M,28,381,9.347,25 and older
+Tajon Buchanan,Canada,M,27,380,9.564,25 and older
+Casemiro,Brazil,M,34,379,10.156,25 and older
+Mostafa Ziko,Egypt,M,29,375,10.668,25 and older
+Alexander Freeman,USA,D,21,373,10.513,Under 25
+Jonathan Tah,Germany,D,30,373,9.261,25 and older
+Jesús Gallardo,Mexico,D,31,372,9.728,25 and older
+Luc De Fougerolles,Canada,D,20,372,3.515,Under 25
+Cody Gakpo,Netherlands,M,27,371,9.327,25 and older
+Rami Rabia,Egypt,D,33,368,7.645,25 and older
+Ismaïla Sarr,Senegal,F,28,366,10.844,25 and older
+Emam Ashour,Egypt,M,28,366,9.652,25 and older
+Malik Tillman,USA,M,24,365,10.657,Under 25
+Idrissa Gana Gueye,Senegal,M,36,364,9.722,25 and older
+Sadio Mané,Senegal,M,34,364,9.996,25 and older
+Florian Wirtz,Germany,M,23,363,10.626,Under 25
+Moisés Caicedo,Ecuador,M,24,360,10.240,Under 25
+Pedro Vite,Ecuador,M,24,360,10.460,Under 25
+Aurélien Tchouaméni,France,M,26,360,10.745,25 and older
+Rúben Dias,Portugal,D,29,360,9.902,25 and older
+Yoane Wissa,DR Congo,F,29,360,9.790,25 and older
+Johan Vásquez,Mexico,D,27,360,9.363,25 and older
+Gideon Mensah,Ghana,D,27,360,9.533,25 and older
+Viktor Gyökeres,Sweden,F,28,360,9.848,25 and older
+Ivan Perišić,Croatia,M,37,360,9.838,25 and older
+Aiden O'Neill,Australia,M,27,360,11.203,25 and older
+Chris Richards,USA,D,26,360,9.555,25 and older
+Mbekezeli Mbokazi,South Africa,D,20,360,6.375,Under 25
+Marcel Sabitzer,Austria,M,32,360,9.980,25 and older
+Tim Ream,USA,D,38,360,8.843,25 and older
+Willian Pacho,Ecuador,D,24,360,6.440,Under 25
+Gonzalo Plata,Ecuador,M,25,360,10.662,25 and older
+Khuliso Mudau,South Africa,D,31,360,9.430,25 and older
+Chancel Mbemba,DR Congo,D,31,360,8.945,25 and older
+Ramy Bensebaini,Algeria,D,31,360,8.670,25 and older
+Ime Okon,South Africa,D,22,360,9.117,Under 25
+Josip Šutalo,Croatia,D,26,360,9.352,25 and older
+Josip Stanišić,Croatia,D,26,360,10.195,25 and older
+Denis Zakaria,Switzerland,M,29,360,6.775,25 and older
+Hiroki Itō,Japan,D,27,360,9.185,25 and older
+Axel Tuanzebe,DR Congo,D,28,360,8.985,25 and older
+Aïssa Mandi,Algeria,D,34,360,8.830,25 and older
+Farès Chaïbi,Algeria,M,23,360,10.853,Under 25
+Gustaf Lagerbielke,Sweden,D,26,360,9.527,25 and older
+Konrad Laimer,Austria,D,29,360,10.168,25 and older
+Antoine Semenyo,Ghana,M,26,360,9.887,25 and older
+Mohanad Lasheen,Egypt,M,30,359,10.256,25 and older
+Alexander Isak,Sweden,F,26,358,8.573,25 and older
+Bukayo Saka,England,F,24,357,10.334,Under 25
+Victor Lindelöf,Sweden,D,31,357,8.945,25 and older
+Ermedin Demirović,Bosnia & Herzegovina,F,28,356,9.741,25 and older
+Kai Havertz,Germany,F,27,355,10.382,25 and older
+Aaron Wan-Bissaka,DR Congo,D,28,355,9.877,25 and older
+Joshua Kimmich,Germany,M,31,353,10.196,25 and older
+Charles De Ketelaere,Belgium,F,25,353,9.762,25 and older
+Pedro Neto,Portugal,M,26,352,9.583,25 and older
+Ibrahim Maza,Algeria,F,20,351,10.921,Under 25
+Antonee Robinson,USA,D,28,349,10.550,25 and older
+Morgan Rogers,England,M,23,349,11.581,Under 25
+Jorge Sánchez,Mexico,D,28,349,10.024,25 and older
+Aubrey Modiba,South Africa,D,30,347,9.428,25 and older
+Franck Kessié,Côte d'Ivoire,M,29,347,10.829,25 and older
+Ryan Gravenberch,Netherlands,M,24,347,9.643,Under 25
+Nicolas Raskin,Belgium,M,25,346,10.826,25 and older
+Erik Lira,Mexico,D,26,346,10.210,25 and older
+Chadi Riad,Morocco,D,23,345,7.291,Under 25
+Tyler Adams,USA,M,27,342,10.618,25 and older
+Yasin Ayari,Sweden,M,22,341,10.037,Under 25
+Piero Hincapié,Ecuador,D,24,341,9.929,Under 25
+Alexander Sørloth,Norway,F,30,341,10.095,25 and older
+Sead Kolašinac,Bosnia & Herzegovina,D,32,339,9.512,25 and older
+Nathan Ngoy,Belgium,D,23,336,9.276,Under 25
+Samuel Moutoussamy,DR Congo,M,29,333,11.084,25 and older
+Rafik Belghali,Algeria,M,24,333,9.865,Under 25
+Stefan Posch,Austria,D,29,333,10.011,25 and older
+Gabriel Gudmundsson,Sweden,D,27,332,9.474,25 and older
+Luis Javier Suárez,Colombia,F,28,332,8.620,25 and older
+Yan Diomande,Côte d'Ivoire,F,19,331,9.337,Under 25
+Frenkie de Jong,Netherlands,M,29,331,10.098,25 and older
+Fabián Ruiz,Spain,M,30,331,10.914,25 and older
+Daichi Kamada,Japan,M,29,331,9.979,25 and older
+Ryan Mendes,Cabo Verde,M,36,331,9.797,25 and older
+John Stones,England,D,32,330,8.670,25 and older
+Leroy Sané,Germany,M,30,328,9.897,25 and older
+Reece James,England,D,26,327,9.322,25 and older
+Omar Marmoush,Egypt,F,27,326,9.135,25 and older
+Antonio Nusa,Norway,F,21,325,9.485,Under 25
+Martin Baturina,Croatia,M,23,324,10.039,Under 25
+Ayase Ueda,Japan,F,27,324,9.486,25 and older
+Hans Vanaken,Belgium,M,33,324,11.261,25 and older
+Omar Alderete,Paraguay,D,29,322,8.662,25 and older
+Raúl Jiménez,Mexico,F,35,320,8.634,25 and older
+Luka Modrić,Croatia,M,40,319,9.824,25 and older
+Arthur Masuaku,DR Congo,D,32,318,8.867,25 and older
+Nikola Katić,Bosnia & Herzegovina,D,29,318,9.504,25 and older
+James Rodríguez,Colombia,M,34,317,9.099,25 and older
+César Montes,Mexico,D,29,315,8.223,25 and older
+John Yeboah,Ecuador,F,25,315,9.037,25 and older
+Nicolas Seiwald,Austria,M,25,315,10.854,25 and older
+Connor Metcalfe,Australia,M,26,315,10.426,25 and older
+Derek Cornelius,Canada,D,28,315,5.086,25 and older
+Folarin Balogun,USA,F,24,314,9.519,Under 25
+João Cancelo,Portugal,D,32,314,10.078,25 and older
+Jérémy Doku,Belgium,M,24,311,9.541,Under 25
+Lautaro Martínez,Argentina,F,28,311,6.199,25 and older
+Keito Nakamura,Japan,M,25,310,9.865,25 and older
+Fredrik Aursnes,Norway,M,30,310,10.971,25 and older
+Facundo Medina,Argentina,D,27,309,9.536,25 and older
+Jordan Bos,Australia,D,23,309,9.964,Under 25
+Diego Gómez,Paraguay,M,23,307,10.642,Under 25
+Jordan Ayew,Ghana,F,34,304,9.761,25 and older
+Fabian Rieder,Switzerland,M,24,304,7.943,Under 25
+Steven Moreira,Cabo Verde,D,31,301,9.828,25 and older
+Sergiño Dest,USA,D,25,298,10.474,25 and older
+Matheus Cunha,Brazil,F,27,293,9.814,25 and older
+Enner Valencia,Ecuador,F,36,290,8.863,25 and older
+Rubén Vargas,Switzerland,M,27,289,9.171,25 and older
+Rayan,Brazil,M,19,289,9.906,Under 25
+Petar Sučić,Croatia,M,22,288,11.725,Under 25
+Noni Madueke,England,F,24,288,9.297,Under 25
+Nabil Bentaleb,Algeria,M,31,288,10.241,25 and older
+Miguel Almirón,Paraguay,M,32,288,10.034,25 and older
+Sidny Lopes Cabral,Cabo Verde,D,23,286,9.469,Under 25
+Rayan Aït-Nouri,Algeria,D,25,284,9.665,25 and older
+Nathaniel Brown,Germany,D,22,283,10.218,Under 25
+Ferran Torres,Spain,F,26,283,10.635,25 and older
+Jamiro Monteiro,Cabo Verde,M,32,283,9.925,25 and older
+Ritsu Doan,Japan,M,27,282,9.664,25 and older
+Marvin Senaya,Ghana,D,25,280,9.440,25 and older
+Odilon Kossounou,Côte d'Ivoire,D,25,280,8.987,25 and older
+David Alaba,Austria,D,33,278,8.825,25 and older
+Guéla Doué,Côte d'Ivoire,D,23,277,9.520,Under 25
+Kerim Alajbegović,Bosnia & Herzegovina,M,18,277,10.183,Under 25
+Aleksandar Pavlović,Germany,M,22,274,11.450,Under 25
+Felix Nmecha,Germany,M,25,272,10.185,25 and older
+Caleb Yirenkyi,Ghana,M,20,272,10.962,Under 25
+Jamal Musiala,Germany,M,23,271,10.634,Under 25
+Mateo Kovačić,Croatia,M,32,271,10.239,25 and older
+Lewis Ferguson,Scotland,M,26,270,11.717,25 and older
+Arda Güler,Türkiye,M,21,270,10.770,Under 25
+Ramin Rezaeian,Iran,D,36,270,10.683,25 and older
+Kang-in Lee,South Korea,M,25,270,9.433,25 and older
+Kaishu Sano,Japan,M,25,270,10.677,25 and older
+Jerome Opoku,Ghana,D,27,270,5.730,25 and older
+Gi-Hyuk Lee,South Korea,D,25,270,9.807,25 and older
+Teboho Mokoena,South Africa,M,29,270,10.003,25 and older
+Shoja Khalilzadeh,Iran,D,37,270,8.763,25 and older
+Hannibal Mejbri,Tunisia,M,23,270,10.000,Under 25
+Andrés Andrade,Panama,D,27,270,9.673,25 and older
+Mathías Olivera,Uruguay,D,28,270,10.427,25 and older
+Jack Hendry,Scotland,D,31,270,9.527,25 and older
+Rodrigo Bentancur,Uruguay,M,28,270,10.570,25 and older
+Amir Murillo,Panama,D,30,270,10.127,25 and older
+Emmanuel Agbadou,Côte d'Ivoire,D,28,270,8.817,25 and older
+Ladislav Krejčí,Czechia,D,27,270,9.987,25 and older
+Thomas Partey,Ghana,M,32,270,10.123,25 and older
+Finn Surman,New Zealand,D,22,270,9.353,Under 25
+Ali Nemati,Iran,D,30,270,9.697,25 and older
+Han-Beom Lee,South Korea,D,23,270,10.040,Under 25
+Issa Laye,Qatar,D,28,270,9.087,25 and older
+Pedro Miguel,Qatar,D,35,270,8.553,25 and older
+Vladimír Coufal,Czechia,D,33,270,10.590,25 and older
+Noor Al-Rawabdeh,Jordan,M,29,270,11.903,25 and older
+Leandro Bacuna,Curaçao,M,34,270,9.580,25 and older
+José Córdoba,Panama,D,25,270,9.507,25 and older
+Ricardo Adé,Haiti,D,36,270,9.297,25 and older
+Sherel Constancio Floranus,Curaçao,D,27,270,9.490,25 and older
+Marin Pongračić,Croatia,D,28,270,8.860,25 and older
+Chris Wood,New Zealand,F,34,270,9.683,25 and older
+Sebastián Cáceres,Uruguay,D,26,270,9.317,25 and older
+Scott McTominay,Scotland,M,29,270,11.777,25 and older
+Boualem Khoukhi,Qatar,D,35,270,8.213,25 and older
+Guillermo Varela,Uruguay,D,33,270,10.157,25 and older
+Amar Dedić,Bosnia & Herzegovina,D,23,270,10.177,Under 25
+Armando Obispo,Curaçao,D,27,270,8.433,25 and older
+Merchas Doski,Iraq,D,26,270,9.740,25 and older
+Hannes Delcroix,Haiti,D,27,270,9.730,25 and older
+Robin Hranáč,Czechia,D,26,270,9.177,25 and older
+Montassar Talbi,Tunisia,D,28,270,5.977,25 and older
+Martin Expérience,Haiti,D,27,270,10.813,25 and older
+Akam Hashem,Iraq,D,27,270,5.903,25 and older
+Abdukodir Khusanov,Uzbekistan,D,22,270,9.097,Under 25
+Yazan Al-Arab,Jordan,D,30,270,8.750,25 and older
+Marko Stamenić,New Zealand,M,24,269,10.435,Under 25
+Ghislain Konan,Côte d'Ivoire,D,30,269,9.351,25 and older
+Eldor Shomurodov,Uzbekistan,F,30,269,9.482,25 and older
+Saud Abdulhamid,Saudi Arabia,M,26,269,9.586,25 and older
+Ali Abdi,Tunisia,D,32,269,9.522,25 and older
+Ibrahim Sangaré,Côte d'Ivoire,M,28,268,10.555,25 and older
+Luis Romo,Mexico,D,30,268,10.380,25 and older
+Ali Olwan,Jordan,F,26,268,10.551,25 and older
+Ahmed Fatouh,Egypt,D,28,268,9.927,25 and older
+Carlos Harvey,Panama,M,26,268,10.918,25 and older
+Abdülkerim Bardakcı,Türkiye,D,31,266,9.342,25 and older
+Romano Schmid,Austria,M,26,266,10.083,25 and older
+Micky van de Ven,Netherlands,D,25,266,8.848,25 and older
+Elijah Just,New Zealand,M,26,265,10.854,25 and older
+Saeid Ezatolahi,Iran,M,29,265,10.542,25 and older
+Mohannad Abu Taha,Jordan,M,23,265,10.145,Under 25
+Hwang In-beom,South Korea,M,29,264,10.742,25 and older
+Deroy Duarte,Cabo Verde,M,26,264,10.105,25 and older
+Nestory Irankunda,Australia,F,20,264,8.840,Under 25
+Riyad Mahrez,Algeria,M,35,263,10.331,25 and older
+Antonio Rüdiger,Germany,D,33,262,7.506,25 and older
+John McGinn,Scotland,M,31,261,9.410,25 and older
+Jean-Ricner Bellegarde,Haiti,M,27,261,10.821,25 and older
+Ehsan Haddad,Jordan,M,32,261,9.669,25 and older
+Abdallah Nasib,Jordan,D,32,261,8.524,25 and older
+Tarik Muharemović,Bosnia & Herzegovina,D,23,260,9.478,Under 25
+Danley Jean Jacques,Haiti,M,26,260,11.198,25 and older
+Tani Oluwaseyi,Canada,F,26,260,9.606,25 and older
+Mehdi Taremi,Iran,F,33,260,10.232,25 and older
+Thalente Mbatha,South Africa,M,26,259,10.713,25 and older
+Noah Sadiki,DR Congo,M,21,258,11.191,Under 25
+Rustam Ashurmatov,Uzbekistan,D,29,257,9.277,25 and older
+Nizar Al-Rashdan,Jordan,M,27,256,10.789,25 and older
+Oswin Appollis,South Africa,M,24,255,10.440,Under 25
+Juninho Bacuna,Curaçao,M,28,255,10.052,25 and older
+Theo Hernández,France,D,28,255,10.225,25 and older
+Alan Franco,Ecuador,M,27,254,9.340,25 and older
+Djibril Sow,Switzerland,M,29,254,7.055,25 and older
+Crysencio Summerville,Netherlands,M,24,253,9.619,Under 25
+Nicolás González,Argentina,M,28,253,8.964,25 and older
+Amine Gouiri,Algeria,F,26,253,9.583,25 and older
+Maximiliano Araújo,Uruguay,D,26,252,9.811,25 and older
+Yan Valery,Tunisia,D,27,252,9.611,25 and older
+Andreas Schjelderup,Norway,M,22,251,10.671,Under 25
+Young-woo Seol,South Korea,D,27,251,10.384,25 and older
+Ellyes Skhiri,Tunisia,M,31,251,9.567,25 and older
+Yoel Bárcenas,Panama,M,32,250,10.451,25 and older
+Lamine Camara,Senegal,M,22,250,10.994,Under 25
+Tahith Chong,Curaçao,M,26,249,9.510,25 and older
+Kwasi Sibo,Ghana,M,27,249,11.125,25 and older
+Amir Al-Ammari,Iraq,M,28,248,10.510,25 and older
+Salem Al-Dawsari,Saudi Arabia,M,34,246,10.573,25 and older
+Daizen Maeda,Japan,F,28,245,11.090,25 and older
+Thapelo Maseko,South Africa,M,23,245,9.500,Under 25
+Kim Min-jae,South Korea,D,29,245,9.437,25 and older
+Mohammad Mohebi,Iran,F,27,245,7.659,25 and older
+Nicolas Pépé,Côte d'Ivoire,F,31,244,9.166,25 and older
+Gustavo Velázquez,Paraguay,D,35,244,7.827,25 and older
+Joe Bell,New Zealand,M,27,244,11.069,25 and older
+Thiago Almada,Argentina,M,25,243,9.519,25 and older
+Nicolás Otamendi,Argentina,D,38,243,9.011,25 and older
+Cristian Martínez,Panama,M,29,243,10.081,25 and older
+Deveron Fonville,Curaçao,D,23,243,9.159,Under 25
+Anis Ben Slimane,Tunisia,M,25,242,10.908,25 and older
+Hamdy Fathy,Egypt,M,31,241,8.070,25 and older
+Abdulelah Al-Amri,Saudi Arabia,D,29,240,9.071,25 and older
+Maxence Lacroix,France,D,26,240,9.548,25 and older
+Akram Afif,Qatar,M,29,239,8.650,25 and older
+Edson Álvarez,Mexico,M,28,239,7.908,25 and older
+Kevin Danso,Austria,D,27,239,6.579,25 and older
+Xaver Schlager,Austria,M,28,239,10.457,25 and older
+Firas Al-Buraikan,Saudi Arabia,F,26,239,10.337,25 and older
+Otabek Shukurov,Uzbekistan,M,29,238,10.872,25 and older
+Federico Valverde,Uruguay,M,27,237,9.767,25 and older
+Benjamin Tahirović,Bosnia & Herzegovina,M,23,237,11.073,Under 25
+Jürgen Locadia,Curaçao,F,32,237,8.822,25 and older
+Ibrahim Bayesh,Iraq,M,26,237,9.927,25 and older
+Pape Gueye,Senegal,M,27,236,10.667,25 and older
+Lucas Paquetá,Brazil,M,28,236,9.915,25 and older
+Ali Ahmed,Canada,M,25,236,9.728,25 and older
+Romelu Lukaku,Belgium,F,33,236,8.756,25 and older
+Marcus Pedersen,Norway,M,25,236,10.209,25 and older
+Ange-Yoan Bonny,Côte d'Ivoire,F,22,236,9.553,Under 25
+Livano Comenencia,Curaçao,D,22,235,10.536,Under 25
+José Luis Rodríguez,Panama,M,27,235,9.525,25 and older
+Paul Wanner,Austria,M,20,234,11.031,Under 25
+Oscar Bobb,Norway,M,22,233,10.456,Under 25
+Brian Brobbey,Netherlands,F,24,232,8.341,Under 25
+Nicolas Jackson,Senegal,F,24,232,10.338,Under 25
+Shogo Taniguchi,Japan,D,34,231,8.677,25 and older
+Jackson Irvine,Australia,M,33,229,11.456,25 and older
+Marcus Rashford,England,F,28,229,11.138,25 and older
+Yaya Sithole,South Africa,M,27,229,10.706,25 and older
+Esmir Bajraktarević,Bosnia & Herzegovina,F,21,229,10.458,Under 25
+Arthur Theate,Belgium,D,26,227,5.951,25 and older
+Tim Payne,New Zealand,D,32,227,9.182,25 and older
+Julian Ryerson,Norway,M,28,226,9.800,25 and older
+Jonas Adjei Adjetey,Ghana,D,22,225,5.436,Under 25
+Mohamed Kanno,Saudi Arabia,M,31,225,10.064,25 and older
+Agustín Canobbio,Uruguay,M,27,225,10.752,25 and older
+Andy Robertson,Scotland,D,32,225,10.004,25 and older
+Joel Ordóñez,Ecuador,D,22,225,9.032,Under 25
+Christian Pulišić,USA,F,27,224,11.025,25 and older
+Amar Memić,Bosnia & Herzegovina,M,25,224,10.354,25 and older
+Abbosbek Fayzullaev,Uzbekistan,M,22,223,9.908,Under 25
+Ruben Providence,Haiti,M,24,223,9.726,Under 25
+Aziz Behich,Australia,D,35,223,9.634,25 and older
+Liberato Cacace,New Zealand,M,25,223,9.864,25 and older
+Ismail Jakobs,Senegal,D,26,220,11.070,25 and older
+Kenan Yıldız,Türkiye,F,21,219,9.921,Under 25
+Alexander Bernhardsson,Sweden,M,27,219,9.588,25 and older
+Nilson Angulo,Ecuador,M,22,218,9.756,Under 25
+Mousa Tamari,Jordan,F,29,217,9.182,25 and older
+Akmal Mozgovoy,Uzbekistan,M,26,217,10.920,25 and older
+Isak Hien,Sweden,D,27,217,5.176,25 and older
+Anthony Elanga,Sweden,F,24,216,9.500,Under 25
+Junya Ito,Japan,M,33,215,9.607,25 and older
+Gilberto Mora,Mexico,M,17,215,9.988,Under 25
+Evidence Makgopa,South Africa,F,26,214,9.673,25 and older
+Hassan Tambakti,Saudi Arabia,D,27,213,9.452,25 and older
+Anass Salah-Eddine,Morocco,D,24,212,9.161,Under 25
+Edmilson Junior,Qatar,M,31,212,9.556,25 and older
+Ricardo Pepi,USA,F,23,212,10.838,Under 25
+Saman Ghoddos,Iran,M,32,211,10.732,25 and older
+Mikel Merino,Spain,M,29,210,12.844,25 and older
+Lucas Herrington,Australia,D,18,210,8.640,Under 25
+Sarpreet Singh,New Zealand,M,27,210,10.821,25 and older
+Eberechi Eze,England,M,27,209,10.834,25 and older
+Christ Inao Oulaï,Côte d'Ivoire,M,20,208,10.112,Under 25
+Nasser Al-Dawsari,Saudi Arabia,M,27,206,11.993,25 and older
+Seung Ho Paik,South Korea,M,29,206,10.105,25 and older
+Michael Boxall,New Zealand,D,37,206,5.151,25 and older
+Juan Sanabria,Uruguay,M,26,205,10.550,25 and older
+Paul Okon-Engstler,Australia,M,21,204,10.425,Under 25
+João Félix,Portugal,F,26,204,10.200,25 and older
+Milad Mohammadi,Iran,D,32,204,10.416,25 and older
+Amine Ben Hmida,Tunisia,D,30,203,2.922,25 and older
+Tijjani Reijnders,Netherlands,M,27,201,10.384,25 and older
+Johan Manzambi,Switzerland,M,20,200,10.449,Under 25
+Israel Reyes,Mexico,D,26,200,9.648,25 and older
+Jarell Quansah,England,D,23,200,9.153,Under 25
+Brian Gutiérrez,Mexico,M,22,198,10.295,Under 25
+Ivan Šunjić,Bosnia & Herzegovina,M,29,198,11.468,25 and older
+Ngal'ayel Mukau,DR Congo,M,21,196,11.764,Under 25
+Sebastian Berhalter,USA,M,25,195,11.765,25 and older
+Moise Bombito,Canada,D,26,194,9.371,25 and older
+Marcos Llorente,Spain,D,31,193,9.709,25 and older
+Cédric Bakambu,DR Congo,F,35,193,9.289,25 and older
+Giuliano Simeone,Argentina,M,23,193,9.933,Under 25
+Ao Tanaka,Japan,M,27,192,10.359,25 and older
+Federico Viñas,Uruguay,F,27,192,8.869,25 and older
+Pathé Ismaël Ciss,Senegal,M,32,191,7.568,25 and older
+Thomas Meunier,Belgium,D,34,190,11.762,25 and older
+Michael Gregoritsch,Austria,F,32,190,9.156,25 and older
+Damián Bobadilla,Paraguay,M,24,190,11.719,Under 25
+Cyle Larin,Canada,F,31,189,9.057,25 and older
+Pavel Šulc,Czechia,F,25,189,10.310,25 and older
+Gonzalo Montiel,Argentina,D,29,189,6.595,25 and older
+Nikola Vlašić,Croatia,M,28,189,10.038,25 and older
+Wilson Isidor,Haiti,F,25,188,10.278,25 and older
+Zidane Iqbal,Iraq,M,23,188,11.154,Under 25
+Donyell Malen,Netherlands,F,27,187,8.721,25 and older
+Ben Gannon-Doak,Scotland,M,20,187,9.558,Under 25
+Moteb Al-Harbi,Saudi Arabia,D,26,187,10.555,25 and older
+Manuel Ugarte,Uruguay,M,25,186,9.794,25 and older
+Nathan Patterson,Scotland,D,24,186,9.673,Under 25
+Amad Diallo,Côte d'Ivoire,M,23,184,10.066,Under 25
+Takehiro Tomiyasu,Japan,D,27,184,9.215,25 and older
+Michal Sadílek,Czechia,M,27,183,11.449,25 and older
+Chemsdine Talbi,Morocco,M,21,183,10.579,Under 25
+Nathan-Dylan Saliba,Canada,M,22,182,11.013,Under 25
+Ali Al-Hamadi,Iraq,F,24,181,10.621,Under 25
+Josué Casimir,Haiti,M,24,181,10.422,Under 25
+Hakan Çalhanoğlu,Türkiye,M,32,180,11.510,25 and older
+Grant Hanley,Scotland,D,34,180,9.055,25 and older
+Derrick Luckassen,Ghana,D,30,180,8.720,25 and older
+Redouane Halhal,Morocco,D,23,180,9.050,Under 25
+Merih Demiral,Türkiye,D,28,180,9.700,25 and older
+Stjepan Radeljić,Bosnia & Herzegovina,D,28,180,9.630,25 and older
+Abdullah Al-Khaibari,Saudi Arabia,M,29,180,11.450,25 and older
+Abdulla Abdullaev,Uzbekistan,M,28,180,9.525,25 and older
+Philipp Lienhart,Austria,D,29,180,9.430,25 and older
+Sherzod Nasrullaev,Uzbekistan,D,27,180,10.540,25 and older
+Patrik Schick,Czechia,F,30,180,10.705,25 and older
+Omar Rekik,Tunisia,D,24,180,9.370,Under 25
+Steve Kapuadi,DR Congo,D,28,180,9.195,25 and older
