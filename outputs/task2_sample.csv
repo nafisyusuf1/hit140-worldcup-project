@@ -1,0 +1,11 @@
+date,home_team,away_team,stage,knockout_stage,home_yellow,away_yellow,total_yellow,home_red,away_red,total_red
+2026-06-11,Korea Republic,Czechia,Group stage,False,2,0,2,0,0,0
+2026-06-12,Canada,Bosnia-Herz,Group stage,False,2,3,5,0,0,0
+2026-06-11,Mexico,South Africa,Group stage,False,1,2,3,1,2,3
+2026-06-12,USA,Paraguay,Group stage,False,1,5,6,0,0,0
+2026-06-19,USA,Australia,Group stage,False,3,4,7,0,0,0
+2026-07-07,Argentina,Egypt,Round of 16,True,0,5,5,0,0,0
+2026-07-11,Norway,England,Quarter-finals,True,1,0,1,0,0,0
+2026-07-11,Argentina,Switzerland,Quarter-finals,True,3,2,5,0,1,1
+2026-07-15,England,Argentina,Semi-finals,True,1,3,4,0,0,0
+2026-07-19,Spain,Argentina,Final,True,0,7,7,0,1,1
