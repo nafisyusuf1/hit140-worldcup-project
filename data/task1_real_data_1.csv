@@ -1,0 +1,487 @@
+# Nafis - Task 1: Defensive Work Rate by Tournament Stage (FIFA World Cup 2026, HIT140 group project)
+# Source: Sofascore (api.sofascore.com), FIFA World Cup 2026 tournament id 16 / season id 58210. Population = all outfield players (excludes goalkeepers) with >=180 total minutes played across the tournament (n=484). tournament_stage: "Advanced to Knockout" = team reached the Round of 32; "Eliminated in Group Stage" = team did not.
+player,team,position,minutes_played,tackles,interceptions,defensive_actions,defensive_actions_per90,tournament_stage
+Pau Cubarsí,Spain,D,750,8,5,13,1.560,Advanced to Knockout
+Marc Cucurella,Spain,D,750,8,7,15,1.800,Advanced to Knockout
+Alexis Mac Allister,Argentina,M,749,21,11,32,3.845,Advanced to Knockout
+Lionel Messi,Argentina,,740,11,1,12,1.459,Advanced to Knockout
+Aymeric Laporte,Spain,D,728,5,15,20,2.473,Advanced to Knockout
+Rodri,Spain,M,726,26,2,28,3.471,Advanced to Knockout
+Kylian Mbappé,France,F,698,1,0,1,0.129,Advanced to Knockout
+Marc Guéhi,England,D,669,2,6,8,1.076,Advanced to Knockout
+Enzo Fernández,Argentina,M,663,11,5,16,2.172,Advanced to Knockout
+Dayot Upamecano,France,D,661,17,15,32,4.357,Advanced to Knockout
+Harry Kane,England,F,653,3,1,4,0.551,Advanced to Knockout
+Michael Olise,France,M,650,15,3,18,2.492,Advanced to Knockout
+Ezri Konsa,England,D,647,5,8,13,1.808,Advanced to Knockout
+Elliot Anderson,England,M,634,21,8,29,4.117,Advanced to Knockout
+Lisandro Martínez,Argentina,D,626,12,6,18,2.588,Advanced to Knockout
+Jude Bellingham,England,M,616,14,3,17,2.484,Advanced to Knockout
+Lamine Yamal,Spain,M,615,11,3,14,2.049,Advanced to Knockout
+Cristian Romero,Argentina,D,611,15,10,25,3.682,Advanced to Knockout
+Jules Koundé,France,D,610,14,3,17,2.508,Advanced to Knockout
+Mikel Oyarzabal,Spain,F,605,6,1,7,1.041,Advanced to Knockout
+Julián Alvarez,Argentina,F,601,5,2,7,1.048,Advanced to Knockout
+Granit Xhaka,Switzerland,M,600,5,4,9,1.350,Advanced to Knockout
+Manuel Akanji,Switzerland,D,600,9,6,15,2.250,Advanced to Knockout
+Nico Elvedi,Switzerland,D,600,4,5,9,1.350,Advanced to Knockout
+Ousmane Dembélé,France,F,597,3,0,3,0.452,Advanced to Knockout
+Remo Freuler,Switzerland,M,594,10,6,16,2.424,Advanced to Knockout
+Adrien Rabiot,France,M,585,8,11,19,2.923,Advanced to Knockout
+Achraf Hakimi,Morocco,D,570,12,6,18,2.842,Advanced to Knockout
+Brandon Mechele,Belgium,D,570,7,4,11,1.737,Advanced to Knockout
+Pedro Porro,Spain,D,564,14,8,22,3.511,Advanced to Knockout
+Neil El Aynaoui,Morocco,M,563,18,7,25,3.996,Advanced to Knockout
+Declan Rice,England,M,558,11,5,16,2.581,Advanced to Knockout
+Nahuel Molina,Argentina,D,531,15,8,23,3.898,Advanced to Knockout
+Ricardo Rodríguez,Switzerland,D,519,11,4,15,2.601,Advanced to Knockout
+Leandro Trossard,Belgium,F,510,6,5,11,1.941,Advanced to Knockout
+Breel Embolo,Switzerland,F,506,1,2,3,0.534,Advanced to Knockout
+Pedri,Spain,M,499,12,10,22,3.968,Advanced to Knockout
+Dani Olmo,Spain,M,495,7,0,7,1.273,Advanced to Knockout
+Rodrigo De Paul,Argentina,M,495,6,6,12,2.182,Advanced to Knockout
+Alex Baena,Spain,M,487,8,1,9,1.663,Advanced to Knockout
+Noussair Mazraoui,Morocco,D,486,14,2,16,2.963,Advanced to Knockout
+Davinson Sánchez,Colombia,D,480,4,7,11,2.063,Advanced to Knockout
+Andrés Cubas,Paraguay,M,480,23,11,34,6.375,Advanced to Knockout
+Sander Berge,Norway,M,480,6,10,16,3.000,Advanced to Knockout
+William Saliba,France,D,480,2,6,8,1.500,Advanced to Knockout
+Kristoffer Ajer,Norway,D,480,9,4,13,2.438,Advanced to Knockout
+Gustavo Gómez,Paraguay,D,480,4,2,6,1.125,Advanced to Knockout
+Mohamed Hany,Egypt,D,480,14,6,20,3.750,Advanced to Knockout
+Jhon Lucumí,Colombia,D,479,2,5,7,1.315,Advanced to Knockout
+Luis Díaz,Colombia,M,478,2,1,3,0.565,Advanced to Knockout
+Timothy Castagne,Belgium,D,478,14,8,22,4.142,Advanced to Knockout
+Issa Diop,Morocco,D,477,1,7,8,1.509,Advanced to Knockout
+Nicolás Tagliafico,Argentina,D,477,8,6,14,2.642,Advanced to Knockout
+Youri Tielemans,Belgium,M,475,7,1,8,1.516,Advanced to Knockout
+Leandro Paredes,Argentina,M,473,10,6,16,3.044,Advanced to Knockout
+Martin Ødegaard,Norway,M,471,6,3,9,1.720,Advanced to Knockout
+Gustavo Puerta,Colombia,M,470,3,4,7,1.340,Advanced to Knockout
+Bilal El Khannouss,Morocco,M,466,14,1,15,2.897,Advanced to Knockout
+Yasser Ibrahim,Egypt,D,466,8,2,10,1.931,Advanced to Knockout
+Erling Haaland,Norway,F,465,1,1,2,0.387,Advanced to Knockout
+Lucas Digne,France,D,465,5,4,9,1.742,Advanced to Knockout
+Brahim Díaz,Morocco,M,462,4,4,8,1.558,Advanced to Knockout
+Nico O'Reilly,England,D,462,6,3,9,1.753,Advanced to Knockout
+Gabriel Magalhães,Brazil,D,450,5,4,9,1.800,Advanced to Knockout
+Marquinhos,Brazil,D,450,5,3,8,1.600,Advanced to Knockout
+Renato Veiga,Portugal,D,450,4,8,12,2.400,Advanced to Knockout
+Alistair Johnston,Canada,D,450,2,6,8,1.600,Advanced to Knockout
+Weston McKennie,USA,M,444,8,7,15,3.041,Advanced to Knockout
+Patrick Berg,Norway,M,444,10,1,11,2.230,Advanced to Knockout
+Torbjørn Heggem,Norway,D,444,8,2,10,2.027,Advanced to Knockout
+Maxim De Cuyper,Belgium,D,443,6,6,12,2.438,Advanced to Knockout
+Douglas Santos,Brazil,D,442,18,6,24,4.887,Advanced to Knockout
+Vinícius Júnior,Brazil,F,441,3,1,4,0.816,Advanced to Knockout
+Cristiano Ronaldo,Portugal,F,441,2,1,3,0.612,Advanced to Knockout
+Juan Cáceres,Paraguay,D,439,22,5,27,5.535,Advanced to Knockout
+Azzedine Ounahi,Morocco,M,437,3,2,5,1.030,Advanced to Knockout
+Marwan Attia,Egypt,M,434,8,3,11,2.281,Advanced to Knockout
+Richie Laryea,Canada,D,431,10,2,12,2.506,Advanced to Knockout
+David Møller Wolfe,Norway,D,431,5,3,8,1.671,Advanced to Knockout
+Roberto Alvarado,Mexico,F,430,9,2,11,2.302,Advanced to Knockout
+Mohamed Salah,Egypt,M,428,1,2,3,0.631,Advanced to Knockout
+Bruno Fernandes,Portugal,M,423,8,0,8,1.702,Advanced to Knockout
+Jonathan David,Canada,F,421,4,3,7,1.496,Advanced to Knockout
+Bruno Guimarães,Brazil,M,419,11,2,13,2.792,Advanced to Knockout
+Julián Quiñones,Mexico,F,414,4,0,4,0.870,Advanced to Knockout
+Jefferson Lerma,Colombia,M,412,2,5,7,1.529,Advanced to Knockout
+Dan Ndoye,Switzerland,M,408,6,5,11,2.426,Advanced to Knockout
+Danilo,Brazil,D,405,7,7,14,3.111,Advanced to Knockout
+Djed Spence,England,D,402,19,6,25,5.597,Advanced to Knockout
+Daniel Muñoz,Colombia,M,399,10,6,16,3.609,Advanced to Knockout
+Anthony Gordon,England,F,399,5,3,8,1.805,Advanced to Knockout
+Désiré Doué,France,F,398,10,2,12,2.714,Advanced to Knockout
+Nuno Mendes,Portugal,D,397,9,0,9,2.040,Advanced to Knockout
+Stephen Eustaquio,Canada,M,391,11,3,14,3.223,Advanced to Knockout
+João Neves,Portugal,M,391,13,5,18,4.143,Advanced to Knockout
+Jan Paul van Hecke,Netherlands,D,390,9,4,13,3.000,Advanced to Knockout
+Alessandro Circati,Australia,D,390,10,2,12,2.769,Advanced to Knockout
+Virgil van Dijk,Netherlands,D,390,2,3,5,1.154,Advanced to Knockout
+Diney Borges,Cabo Verde,D,390,11,4,15,3.462,Advanced to Knockout
+Pico,Cabo Verde,D,390,7,7,14,3.231,Advanced to Knockout
+Johan Mojica,Colombia,D,390,5,3,8,1.846,Advanced to Knockout
+Moussa Niakhaté,Senegal,D,390,2,4,6,1.385,Advanced to Knockout
+Denzel Dumfries,Netherlands,M,390,6,1,7,1.615,Advanced to Knockout
+Harry Souttar,Australia,D,390,2,4,6,1.385,Advanced to Knockout
+Krépin Diatta,Senegal,M,390,12,3,15,3.462,Advanced to Knockout
+Junior Alonso,Paraguay,D,390,11,4,15,3.462,Advanced to Knockout
+Matías Galarza,Paraguay,M,388,17,7,24,5.567,Advanced to Knockout
+Kevin De Bruyne,Belgium,M,387,3,0,3,0.698,Advanced to Knockout
+Julio Enciso,Paraguay,M,387,5,1,6,1.395,Advanced to Knockout
+Manu Koné,France,M,386,7,3,10,2.332,Advanced to Knockout
+Ismael Saibari,Morocco,M,385,3,0,3,0.701,Advanced to Knockout
+Bradley Barcola,France,F,384,5,1,6,1.406,Advanced to Knockout
+Ayyoub Bouaddi,Morocco,M,384,9,2,11,2.578,Advanced to Knockout
+Vitinha,Portugal,M,381,2,2,4,0.945,Advanced to Knockout
+Jhon Arias,Colombia,M,381,15,2,17,4.016,Advanced to Knockout
+Tajon Buchanan,Canada,M,380,7,1,8,1.895,Advanced to Knockout
+Casemiro,Brazil,M,379,14,6,20,4.749,Advanced to Knockout
+Mostafa Ziko,Egypt,M,375,5,3,8,1.920,Advanced to Knockout
+Alexander Freeman,USA,D,373,14,6,20,4.826,Advanced to Knockout
+Jonathan Tah,Germany,D,373,3,1,4,0.965,Advanced to Knockout
+Jesús Gallardo,Mexico,D,372,3,7,10,2.419,Advanced to Knockout
+Luc De Fougerolles,Canada,D,372,8,2,10,2.419,Advanced to Knockout
+Cody Gakpo,Netherlands,M,371,3,2,5,1.213,Advanced to Knockout
+Rami Rabia,Egypt,D,368,8,4,12,2.935,Advanced to Knockout
+Ismaïla Sarr,Senegal,F,366,1,2,3,0.738,Advanced to Knockout
+Emam Ashour,Egypt,M,366,3,4,7,1.721,Advanced to Knockout
+Malik Tillman,USA,M,365,8,6,14,3.452,Advanced to Knockout
+Idrissa Gana Gueye,Senegal,M,364,6,2,8,1.978,Advanced to Knockout
+Sadio Mané,Senegal,M,364,4,3,7,1.731,Advanced to Knockout
+Florian Wirtz,Germany,M,363,7,2,9,2.231,Advanced to Knockout
+Moisés Caicedo,Ecuador,M,360,9,4,13,3.250,Advanced to Knockout
+Pedro Vite,Ecuador,M,360,15,6,21,5.250,Advanced to Knockout
+Aurélien Tchouaméni,France,M,360,17,6,23,5.750,Advanced to Knockout
+Rúben Dias,Portugal,D,360,5,5,10,2.500,Advanced to Knockout
+Yoane Wissa,DR Congo,F,360,1,0,1,0.250,Advanced to Knockout
+Johan Vásquez,Mexico,D,360,3,2,5,1.250,Advanced to Knockout
+Gideon Mensah,Ghana,D,360,7,8,15,3.750,Advanced to Knockout
+Viktor Gyökeres,Sweden,F,360,2,0,2,0.500,Advanced to Knockout
+Ivan Perišić,Croatia,M,360,8,4,12,3.000,Advanced to Knockout
+Aiden O'Neill,Australia,M,360,6,2,8,2.000,Advanced to Knockout
+Chris Richards,USA,D,360,5,4,9,2.250,Advanced to Knockout
+Mbekezeli Mbokazi,South Africa,D,360,7,4,11,2.750,Advanced to Knockout
+Marcel Sabitzer,Austria,M,360,5,6,11,2.750,Advanced to Knockout
+Tim Ream,USA,D,360,1,6,7,1.750,Advanced to Knockout
+Willian Pacho,Ecuador,D,360,5,8,13,3.250,Advanced to Knockout
+Gonzalo Plata,Ecuador,M,360,9,2,11,2.750,Advanced to Knockout
+Khuliso Mudau,South Africa,D,360,9,10,19,4.750,Advanced to Knockout
+Chancel Mbemba,DR Congo,D,360,4,1,5,1.250,Advanced to Knockout
+Ramy Bensebaini,Algeria,D,360,10,7,17,4.250,Advanced to Knockout
+Ime Okon,South Africa,D,360,3,5,8,2.000,Advanced to Knockout
+Josip Šutalo,Croatia,D,360,5,6,11,2.750,Advanced to Knockout
+Josip Stanišić,Croatia,D,360,4,4,8,2.000,Advanced to Knockout
+Denis Zakaria,Switzerland,M,360,8,9,17,4.250,Advanced to Knockout
+Hiroki Itō,Japan,D,360,4,1,5,1.250,Advanced to Knockout
+Axel Tuanzebe,DR Congo,D,360,5,1,6,1.500,Advanced to Knockout
+Aïssa Mandi,Algeria,D,360,5,4,9,2.250,Advanced to Knockout
+Farès Chaïbi,Algeria,M,360,5,3,8,2.000,Advanced to Knockout
+Gustaf Lagerbielke,Sweden,D,360,13,4,17,4.250,Advanced to Knockout
+Konrad Laimer,Austria,D,360,10,2,12,3.000,Advanced to Knockout
+Antoine Semenyo,Ghana,M,360,2,0,2,0.500,Advanced to Knockout
+Mohanad Lasheen,Egypt,M,359,16,8,24,6.017,Advanced to Knockout
+Alexander Isak,Sweden,F,358,2,0,2,0.503,Advanced to Knockout
+Bukayo Saka,England,F,357,13,1,14,3.529,Advanced to Knockout
+Victor Lindelöf,Sweden,D,357,2,4,6,1.513,Advanced to Knockout
+Ermedin Demirović,Bosnia & Herzegovina,F,356,4,1,5,1.264,Advanced to Knockout
+Kai Havertz,Germany,F,355,3,1,4,1.014,Advanced to Knockout
+Aaron Wan-Bissaka,DR Congo,D,355,10,7,17,4.310,Advanced to Knockout
+Joshua Kimmich,Germany,M,353,6,4,10,2.550,Advanced to Knockout
+Charles De Ketelaere,Belgium,F,353,6,5,11,2.805,Advanced to Knockout
+Pedro Neto,Portugal,M,352,4,0,4,1.023,Advanced to Knockout
+Kevin Pina,Cabo Verde,,351,8,3,11,2.821,Advanced to Knockout
+Ibrahim Maza,Algeria,F,351,5,0,5,1.282,Advanced to Knockout
+Antonee Robinson,USA,D,349,12,6,18,4.642,Advanced to Knockout
+Morgan Rogers,England,M,349,5,0,5,1.289,Advanced to Knockout
+Jorge Sánchez,Mexico,D,349,9,5,14,3.610,Advanced to Knockout
+Aubrey Modiba,South Africa,D,347,11,4,15,3.890,Advanced to Knockout
+Franck Kessié,Côte d'Ivoire,M,347,4,0,4,1.037,Advanced to Knockout
+Ryan Gravenberch,Netherlands,M,347,4,6,10,2.594,Advanced to Knockout
+Nicolas Raskin,Belgium,M,346,10,2,12,3.121,Advanced to Knockout
+Erik Lira,Mexico,D,346,7,2,9,2.341,Advanced to Knockout
+Chadi Riad,Morocco,D,345,2,4,6,1.565,Advanced to Knockout
+Tyler Adams,USA,M,342,8,7,15,3.947,Advanced to Knockout
+Yasin Ayari,Sweden,M,341,5,3,8,2.111,Advanced to Knockout
+Piero Hincapié,Ecuador,D,341,12,4,16,4.223,Advanced to Knockout
+Alexander Sørloth,Norway,F,341,1,0,1,0.264,Advanced to Knockout
+Sead Kolašinac,Bosnia & Herzegovina,D,339,8,2,10,2.655,Advanced to Knockout
+Nathan Ngoy,Belgium,D,336,7,6,13,3.482,Advanced to Knockout
+Samuel Moutoussamy,DR Congo,M,333,14,1,15,4.054,Advanced to Knockout
+Rafik Belghali,Algeria,M,333,7,1,8,2.162,Advanced to Knockout
+Stefan Posch,Austria,D,333,4,9,13,3.514,Advanced to Knockout
+Gabriel Gudmundsson,Sweden,D,332,6,4,10,2.711,Advanced to Knockout
+Luis Javier Suárez,Colombia,F,332,4,0,4,1.084,Advanced to Knockout
+Yan Diomande,Côte d'Ivoire,F,331,13,4,17,4.622,Advanced to Knockout
+Frenkie de Jong,Netherlands,M,331,9,8,17,4.622,Advanced to Knockout
+Fabián Ruiz,Spain,M,331,7,4,11,2.991,Advanced to Knockout
+Daichi Kamada,Japan,M,331,4,1,5,1.360,Advanced to Knockout
+Ryan Mendes,Cabo Verde,M,331,5,4,9,2.447,Advanced to Knockout
+John Stones,England,D,330,2,0,2,0.545,Advanced to Knockout
+Leroy Sané,Germany,M,328,6,2,8,2.195,Advanced to Knockout
+Reece James,England,D,327,6,3,9,2.477,Advanced to Knockout
+Omar Marmoush,Egypt,F,326,4,2,6,1.656,Advanced to Knockout
+Antonio Nusa,Norway,F,325,4,2,6,1.662,Advanced to Knockout
+Martin Baturina,Croatia,M,324,3,1,4,1.111,Advanced to Knockout
+Ayase Ueda,Japan,F,324,1,0,1,0.278,Advanced to Knockout
+Hans Vanaken,Belgium,M,324,3,1,4,1.111,Advanced to Knockout
+Omar Alderete,Paraguay,D,322,0,3,3,0.839,Advanced to Knockout
+Raúl Jiménez,Mexico,F,320,1,0,1,0.281,Advanced to Knockout
+Luka Modrić,Croatia,M,319,7,2,9,2.539,Advanced to Knockout
+Arthur Masuaku,DR Congo,D,318,8,0,8,2.264,Advanced to Knockout
+Nikola Katić,Bosnia & Herzegovina,D,318,10,4,14,3.962,Advanced to Knockout
+James Rodríguez,Colombia,M,317,4,1,5,1.420,Advanced to Knockout
+César Montes,Mexico,D,315,2,2,4,1.143,Advanced to Knockout
+John Yeboah,Ecuador,F,315,3,3,6,1.714,Advanced to Knockout
+Nicolas Seiwald,Austria,M,315,10,4,14,4.000,Advanced to Knockout
+Connor Metcalfe,Australia,M,315,5,2,7,2.000,Advanced to Knockout
+Derek Cornelius,Canada,D,315,5,2,7,2.000,Advanced to Knockout
+Folarin Balogun,USA,F,314,0,1,1,0.287,Advanced to Knockout
+João Cancelo,Portugal,D,314,7,5,12,3.439,Advanced to Knockout
+Jérémy Doku,Belgium,M,311,1,3,4,1.158,Advanced to Knockout
+Lautaro Martínez,Argentina,F,311,3,0,3,0.868,Advanced to Knockout
+Keito Nakamura,Japan,M,310,4,1,5,1.452,Advanced to Knockout
+Fredrik Aursnes,Norway,M,310,12,1,13,3.774,Advanced to Knockout
+Facundo Medina,Argentina,D,309,9,1,10,2.913,Advanced to Knockout
+Jordan Bos,Australia,D,309,5,3,8,2.330,Advanced to Knockout
+Diego Gómez,Paraguay,M,307,11,9,20,5.863,Advanced to Knockout
+Jordan Ayew,Ghana,F,304,3,1,4,1.184,Advanced to Knockout
+Fabian Rieder,Switzerland,M,304,6,1,7,2.072,Advanced to Knockout
+Steven Moreira,Cabo Verde,D,301,3,2,5,1.495,Advanced to Knockout
+Sergiño Dest,USA,D,298,1,3,4,1.208,Advanced to Knockout
+Matheus Cunha,Brazil,F,293,6,3,9,2.765,Advanced to Knockout
+Enner Valencia,Ecuador,F,290,2,0,2,0.621,Advanced to Knockout
+Rubén Vargas,Switzerland,M,289,5,2,7,2.180,Advanced to Knockout
+Rayan,Brazil,M,289,4,3,7,2.180,Advanced to Knockout
+Petar Sučić,Croatia,M,288,5,1,6,1.875,Advanced to Knockout
+Noni Madueke,England,F,288,5,2,7,2.188,Advanced to Knockout
+Nabil Bentaleb,Algeria,M,288,8,4,12,3.750,Advanced to Knockout
+Miguel Almirón,Paraguay,M,288,8,3,11,3.438,Advanced to Knockout
+Sidny Lopes Cabral,Cabo Verde,D,286,5,3,8,2.517,Advanced to Knockout
+Rayan Aït-Nouri,Algeria,D,284,16,5,21,6.655,Advanced to Knockout
+Nathaniel Brown,Germany,D,283,13,2,15,4.770,Advanced to Knockout
+Ferran Torres,Spain,F,283,0,0,0,0.000,Advanced to Knockout
+Jamiro Monteiro,Cabo Verde,M,283,7,4,11,3.498,Advanced to Knockout
+Ritsu Doan,Japan,M,282,4,1,5,1.596,Advanced to Knockout
+Marvin Senaya,Ghana,D,280,20,5,25,8.036,Advanced to Knockout
+Odilon Kossounou,Côte d'Ivoire,D,280,5,3,8,2.571,Advanced to Knockout
+David Alaba,Austria,D,278,2,4,6,1.942,Advanced to Knockout
+Guéla Doué,Côte d'Ivoire,D,277,6,3,9,2.924,Advanced to Knockout
+Kerim Alajbegović,Bosnia & Herzegovina,M,277,0,2,2,0.650,Advanced to Knockout
+Aleksandar Pavlović,Germany,M,274,3,2,5,1.642,Advanced to Knockout
+Felix Nmecha,Germany,M,272,13,3,16,5.294,Advanced to Knockout
+Caleb Yirenkyi,Ghana,M,272,2,3,5,1.654,Advanced to Knockout
+Jamal Musiala,Germany,M,271,7,1,8,2.657,Advanced to Knockout
+Mateo Kovačić,Croatia,M,271,5,2,7,2.325,Advanced to Knockout
+Lewis Ferguson,Scotland,M,270,12,4,16,5.333,Eliminated in Group Stage
+Arda Güler,Türkiye,M,270,4,2,6,2.000,Eliminated in Group Stage
+Ramin Rezaeian,Iran,D,270,6,2,8,2.667,Eliminated in Group Stage
+Kang-in Lee,South Korea,M,270,2,0,2,0.667,Eliminated in Group Stage
+Kaishu Sano,Japan,M,270,3,4,7,2.333,Advanced to Knockout
+Jerome Opoku,Ghana,D,270,3,1,4,1.333,Advanced to Knockout
+Gi-Hyuk Lee,South Korea,D,270,4,5,9,3.000,Eliminated in Group Stage
+Teboho Mokoena,South Africa,M,270,4,5,9,3.000,Advanced to Knockout
+Shoja Khalilzadeh,Iran,D,270,6,3,9,3.000,Eliminated in Group Stage
+Hannibal Mejbri,Tunisia,M,270,7,1,8,2.667,Eliminated in Group Stage
+Andrés Andrade,Panama,D,270,7,3,10,3.333,Eliminated in Group Stage
+Mathías Olivera,Uruguay,D,270,8,2,10,3.333,Eliminated in Group Stage
+Jack Hendry,Scotland,D,270,2,0,2,0.667,Eliminated in Group Stage
+Rodrigo Bentancur,Uruguay,M,270,6,7,13,4.333,Eliminated in Group Stage
+Amir Murillo,Panama,D,270,7,1,8,2.667,Eliminated in Group Stage
+Emmanuel Agbadou,Côte d'Ivoire,D,270,8,4,12,4.000,Advanced to Knockout
+Ladislav Krejčí,Czechia,D,270,8,1,9,3.000,Eliminated in Group Stage
+Thomas Partey,Ghana,M,270,4,6,10,3.333,Advanced to Knockout
+Finn Surman,New Zealand,D,270,3,3,6,2.000,Eliminated in Group Stage
+Ali Nemati,Iran,D,270,3,0,3,1.000,Eliminated in Group Stage
+Han-Beom Lee,South Korea,D,270,4,2,6,2.000,Eliminated in Group Stage
+Issa Laye,Qatar,D,270,3,1,4,1.333,Eliminated in Group Stage
+Pedro Miguel,Qatar,D,270,6,3,9,3.000,Eliminated in Group Stage
+Vladimír Coufal,Czechia,D,270,1,2,3,1.000,Eliminated in Group Stage
+Noor Al-Rawabdeh,Jordan,M,270,11,2,13,4.333,Eliminated in Group Stage
+Leandro Bacuna,Curaçao,M,270,6,0,6,2.000,Eliminated in Group Stage
+José Córdoba,Panama,D,270,4,1,5,1.667,Eliminated in Group Stage
+Ricardo Adé,Haiti,D,270,5,5,10,3.333,Eliminated in Group Stage
+Sherel Constancio Floranus,Curaçao,D,270,9,4,13,4.333,Eliminated in Group Stage
+Marin Pongračić,Croatia,D,270,5,1,6,2.000,Advanced to Knockout
+Chris Wood,New Zealand,F,270,1,0,1,0.333,Eliminated in Group Stage
+Sebastián Cáceres,Uruguay,D,270,1,2,3,1.000,Eliminated in Group Stage
+Scott McTominay,Scotland,M,270,2,0,2,0.667,Eliminated in Group Stage
+Boualem Khoukhi,Qatar,D,270,5,3,8,2.667,Eliminated in Group Stage
+Guillermo Varela,Uruguay,D,270,2,7,9,3.000,Eliminated in Group Stage
+Amar Dedić,Bosnia & Herzegovina,D,270,9,1,10,3.333,Advanced to Knockout
+Armando Obispo,Curaçao,D,270,3,7,10,3.333,Eliminated in Group Stage
+Merchas Doski,Iraq,D,270,13,5,18,6.000,Eliminated in Group Stage
+Hannes Delcroix,Haiti,D,270,5,5,10,3.333,Eliminated in Group Stage
+Robin Hranáč,Czechia,D,270,1,1,2,0.667,Eliminated in Group Stage
+Montassar Talbi,Tunisia,D,270,3,5,8,2.667,Eliminated in Group Stage
+Martin Expérience,Haiti,D,270,10,4,14,4.667,Eliminated in Group Stage
+Akam Hashem,Iraq,D,270,2,2,4,1.333,Eliminated in Group Stage
+Abdukodir Khusanov,Uzbekistan,D,270,5,5,10,3.333,Eliminated in Group Stage
+Yazan Al-Arab,Jordan,D,270,5,11,16,5.333,Eliminated in Group Stage
+Marko Stamenić,New Zealand,M,269,2,4,6,2.007,Eliminated in Group Stage
+Ghislain Konan,Côte d'Ivoire,D,269,3,0,3,1.004,Advanced to Knockout
+Eldor Shomurodov,Uzbekistan,F,269,6,0,6,2.007,Eliminated in Group Stage
+Saud Abdulhamid,Saudi Arabia,M,269,11,2,13,4.349,Eliminated in Group Stage
+Ali Abdi,Tunisia,D,269,9,4,13,4.349,Eliminated in Group Stage
+Ibrahim Sangaré,Côte d'Ivoire,M,268,13,6,19,6.381,Advanced to Knockout
+Luis Romo,Mexico,D,268,6,4,10,3.358,Advanced to Knockout
+Ali Olwan,Jordan,F,268,2,1,3,1.007,Eliminated in Group Stage
+Ahmed Fatouh,Egypt,D,268,6,3,9,3.022,Advanced to Knockout
+Carlos Harvey,Panama,M,268,6,1,7,2.351,Eliminated in Group Stage
+Abdülkerim Bardakcı,Türkiye,D,266,8,2,10,3.383,Eliminated in Group Stage
+Romano Schmid,Austria,M,266,5,0,5,1.692,Advanced to Knockout
+Micky van de Ven,Netherlands,D,266,4,2,6,2.030,Advanced to Knockout
+Elijah Just,New Zealand,M,265,6,2,8,2.717,Eliminated in Group Stage
+Saeid Ezatolahi,Iran,M,265,6,7,13,4.415,Eliminated in Group Stage
+Mohannad Abu Taha,Jordan,M,265,9,7,16,5.434,Eliminated in Group Stage
+Hwang In-beom,South Korea,M,264,3,4,7,2.386,Eliminated in Group Stage
+Deroy Duarte,Cabo Verde,M,264,8,6,14,4.773,Advanced to Knockout
+Nestory Irankunda,Australia,F,264,0,1,1,0.341,Advanced to Knockout
+Riyad Mahrez,Algeria,M,263,4,1,5,1.711,Advanced to Knockout
+Antonio Rüdiger,Germany,D,262,2,0,2,0.687,Advanced to Knockout
+John McGinn,Scotland,M,261,0,0,0,0.000,Eliminated in Group Stage
+Jean-Ricner Bellegarde,Haiti,M,261,2,3,5,1.724,Eliminated in Group Stage
+Ehsan Haddad,Jordan,M,261,3,2,5,1.724,Eliminated in Group Stage
+Abdallah Nasib,Jordan,D,261,5,7,12,4.138,Eliminated in Group Stage
+Tarik Muharemović,Bosnia & Herzegovina,D,260,1,8,9,3.115,Advanced to Knockout
+Danley Jean Jacques,Haiti,M,260,13,3,16,5.538,Eliminated in Group Stage
+Tani Oluwaseyi,Canada,F,260,5,0,5,1.731,Advanced to Knockout
+Mehdi Taremi,Iran,F,260,3,2,5,1.731,Eliminated in Group Stage
+Thalente Mbatha,South Africa,M,259,6,5,11,3.822,Advanced to Knockout
+Noah Sadiki,DR Congo,M,258,9,2,11,3.837,Advanced to Knockout
+Rustam Ashurmatov,Uzbekistan,D,257,2,7,9,3.152,Eliminated in Group Stage
+Nizar Al-Rashdan,Jordan,M,256,8,2,10,3.516,Eliminated in Group Stage
+Oswin Appollis,South Africa,M,255,5,1,6,2.118,Advanced to Knockout
+Juninho Bacuna,Curaçao,M,255,6,5,11,3.882,Eliminated in Group Stage
+Theo Hernández,France,D,255,2,3,5,1.765,Advanced to Knockout
+Alan Franco,Ecuador,M,254,8,4,12,4.252,Advanced to Knockout
+Djibril Sow,Switzerland,M,254,1,2,3,1.063,Advanced to Knockout
+Crysencio Summerville,Netherlands,M,253,4,2,6,2.134,Advanced to Knockout
+Nicolás González,Argentina,M,253,5,1,6,2.134,Advanced to Knockout
+Amine Gouiri,Algeria,F,253,1,0,1,0.356,Advanced to Knockout
+Maximiliano Araújo,Uruguay,D,252,2,0,2,0.714,Eliminated in Group Stage
+Yan Valery,Tunisia,D,252,3,4,7,2.500,Eliminated in Group Stage
+Andreas Schjelderup,Norway,M,251,8,5,13,4.661,Advanced to Knockout
+Young-woo Seol,South Korea,D,251,2,1,3,1.076,Eliminated in Group Stage
+Ellyes Skhiri,Tunisia,M,251,3,2,5,1.793,Eliminated in Group Stage
+Yoel Bárcenas,Panama,M,250,2,2,4,1.440,Eliminated in Group Stage
+Lamine Camara,Senegal,M,250,3,2,5,1.800,Advanced to Knockout
+Tahith Chong,Curaçao,M,249,2,1,3,1.084,Eliminated in Group Stage
+Kwasi Sibo,Ghana,M,249,1,2,3,1.084,Advanced to Knockout
+Amir Al-Ammari,Iraq,M,248,2,2,4,1.452,Eliminated in Group Stage
+Salem Al-Dawsari,Saudi Arabia,M,246,5,1,6,2.195,Eliminated in Group Stage
+Daizen Maeda,Japan,F,245,6,2,8,2.939,Advanced to Knockout
+Thapelo Maseko,South Africa,M,245,6,2,8,2.939,Advanced to Knockout
+Kim Min-jae,South Korea,D,245,3,2,5,1.837,Eliminated in Group Stage
+Mohammad Mohebi,Iran,F,245,3,1,4,1.469,Eliminated in Group Stage
+Nicolas Pépé,Côte d'Ivoire,F,244,1,3,4,1.475,Advanced to Knockout
+Gustavo Velázquez,Paraguay,D,244,1,1,2,0.738,Advanced to Knockout
+Joe Bell,New Zealand,M,244,5,4,9,3.320,Eliminated in Group Stage
+Thiago Almada,Argentina,M,243,5,0,5,1.852,Advanced to Knockout
+Nicolás Otamendi,Argentina,D,243,4,5,9,3.333,Advanced to Knockout
+Cristian Martínez,Panama,M,243,7,1,8,2.963,Eliminated in Group Stage
+Deveron Fonville,Curaçao,D,243,5,4,9,3.333,Eliminated in Group Stage
+Anis Ben Slimane,Tunisia,M,242,2,2,4,1.488,Eliminated in Group Stage
+Hamdy Fathy,Egypt,M,241,11,3,14,5.228,Advanced to Knockout
+Abdulelah Al-Amri,Saudi Arabia,D,240,3,4,7,2.625,Eliminated in Group Stage
+Maxence Lacroix,France,D,240,3,3,6,2.250,Advanced to Knockout
+Akram Afif,Qatar,M,239,1,0,1,0.377,Eliminated in Group Stage
+Edson Álvarez,Mexico,M,239,8,3,11,4.142,Advanced to Knockout
+Kevin Danso,Austria,D,239,2,0,2,0.753,Advanced to Knockout
+Xaver Schlager,Austria,M,239,6,7,13,4.895,Advanced to Knockout
+Firas Al-Buraikan,Saudi Arabia,F,239,1,1,2,0.753,Eliminated in Group Stage
+Otabek Shukurov,Uzbekistan,M,238,3,0,3,1.134,Eliminated in Group Stage
+Federico Valverde,Uruguay,M,237,3,3,6,2.278,Eliminated in Group Stage
+Benjamin Tahirović,Bosnia & Herzegovina,M,237,6,4,10,3.797,Advanced to Knockout
+Jürgen Locadia,Curaçao,F,237,0,1,1,0.380,Eliminated in Group Stage
+Ibrahim Bayesh,Iraq,M,237,6,1,7,2.658,Eliminated in Group Stage
+Pape Gueye,Senegal,M,236,3,4,7,2.669,Advanced to Knockout
+Lucas Paquetá,Brazil,M,236,8,5,13,4.958,Advanced to Knockout
+Ali Ahmed,Canada,M,236,7,3,10,3.814,Advanced to Knockout
+Romelu Lukaku,Belgium,F,236,0,0,0,0.000,Advanced to Knockout
+Marcus Pedersen,Norway,M,236,2,0,2,0.763,Advanced to Knockout
+Ange-Yoan Bonny,Côte d'Ivoire,F,236,3,1,4,1.525,Advanced to Knockout
+Livano Comenencia,Curaçao,D,235,2,10,12,4.596,Eliminated in Group Stage
+José Luis Rodríguez,Panama,M,235,4,0,4,1.532,Eliminated in Group Stage
+Paul Wanner,Austria,M,234,3,2,5,1.923,Advanced to Knockout
+Oscar Bobb,Norway,M,233,5,2,7,2.704,Advanced to Knockout
+Brian Brobbey,Netherlands,F,232,2,0,2,0.776,Advanced to Knockout
+Nicolas Jackson,Senegal,F,232,2,0,2,0.776,Advanced to Knockout
+Shogo Taniguchi,Japan,D,231,0,1,1,0.390,Advanced to Knockout
+Jackson Irvine,Australia,M,229,3,1,4,1.572,Advanced to Knockout
+Marcus Rashford,England,F,229,2,0,2,0.786,Advanced to Knockout
+Yaya Sithole,South Africa,M,229,8,5,13,5.109,Advanced to Knockout
+Esmir Bajraktarević,Bosnia & Herzegovina,F,229,0,4,4,1.572,Advanced to Knockout
+Arthur Theate,Belgium,D,227,1,3,4,1.586,Advanced to Knockout
+Tim Payne,New Zealand,D,227,4,1,5,1.982,Eliminated in Group Stage
+Julian Ryerson,Norway,M,226,11,0,11,4.381,Advanced to Knockout
+Jonas Adjei Adjetey,Ghana,D,225,4,1,5,2.000,Advanced to Knockout
+Mohamed Kanno,Saudi Arabia,M,225,8,3,11,4.400,Eliminated in Group Stage
+Agustín Canobbio,Uruguay,M,225,6,2,8,3.200,Eliminated in Group Stage
+Andy Robertson,Scotland,D,225,2,2,4,1.600,Eliminated in Group Stage
+Joel Ordóñez,Ecuador,D,225,5,1,6,2.400,Advanced to Knockout
+Christian Pulišić,USA,F,224,3,0,3,1.205,Advanced to Knockout
+Amar Memić,Bosnia & Herzegovina,M,224,3,1,4,1.607,Advanced to Knockout
+Abbosbek Fayzullaev,Uzbekistan,M,223,6,1,7,2.825,Eliminated in Group Stage
+Ruben Providence,Haiti,M,223,6,0,6,2.422,Eliminated in Group Stage
+Aziz Behich,Australia,D,223,6,1,7,2.825,Advanced to Knockout
+Liberato Cacace,New Zealand,M,223,5,3,8,3.229,Eliminated in Group Stage
+Ismail Jakobs,Senegal,D,220,5,2,7,2.864,Advanced to Knockout
+Kenan Yıldız,Türkiye,F,219,5,1,6,2.466,Eliminated in Group Stage
+Alexander Bernhardsson,Sweden,M,219,5,2,7,2.877,Advanced to Knockout
+Nilson Angulo,Ecuador,M,218,2,2,4,1.651,Advanced to Knockout
+Mousa Tamari,Jordan,F,217,2,0,2,0.829,Eliminated in Group Stage
+Akmal Mozgovoy,Uzbekistan,M,217,2,2,4,1.659,Eliminated in Group Stage
+Isak Hien,Sweden,D,217,3,1,4,1.659,Advanced to Knockout
+Anthony Elanga,Sweden,F,216,0,2,2,0.833,Advanced to Knockout
+Junya Ito,Japan,M,215,4,1,5,2.093,Advanced to Knockout
+Gilberto Mora,Mexico,M,215,3,2,5,2.093,Advanced to Knockout
+Evidence Makgopa,South Africa,F,214,4,1,5,2.103,Advanced to Knockout
+Hassan Tambakti,Saudi Arabia,D,213,3,3,6,2.535,Eliminated in Group Stage
+Anass Salah-Eddine,Morocco,D,212,7,1,8,3.396,Advanced to Knockout
+Edmilson Junior,Qatar,M,212,2,0,2,0.849,Eliminated in Group Stage
+Ricardo Pepi,USA,F,212,2,0,2,0.849,Advanced to Knockout
+Saman Ghoddos,Iran,M,211,7,4,11,4.692,Eliminated in Group Stage
+Mikel Merino,Spain,M,210,3,3,6,2.571,Advanced to Knockout
+Lucas Herrington,Australia,D,210,2,2,4,1.714,Advanced to Knockout
+Sarpreet Singh,New Zealand,M,210,1,1,2,0.857,Eliminated in Group Stage
+Eberechi Eze,England,M,209,0,0,0,0.000,Advanced to Knockout
+Christ Inao Oulaï,Côte d'Ivoire,M,208,6,6,12,5.192,Advanced to Knockout
+Nasser Al-Dawsari,Saudi Arabia,M,206,5,4,9,3.932,Eliminated in Group Stage
+Seung Ho Paik,South Korea,M,206,1,1,2,0.874,Eliminated in Group Stage
+Michael Boxall,New Zealand,D,206,1,2,3,1.311,Eliminated in Group Stage
+Juan Sanabria,Uruguay,M,205,7,1,8,3.512,Eliminated in Group Stage
+Paul Okon-Engstler,Australia,M,204,6,4,10,4.412,Advanced to Knockout
+João Félix,Portugal,F,204,6,4,10,4.412,Advanced to Knockout
+Milad Mohammadi,Iran,D,204,7,2,9,3.971,Eliminated in Group Stage
+Amine Ben Hmida,Tunisia,D,203,12,1,13,5.764,Eliminated in Group Stage
+Tijjani Reijnders,Netherlands,M,201,0,2,2,0.896,Advanced to Knockout
+Johan Manzambi,Switzerland,M,200,0,0,0,0.000,Advanced to Knockout
+Israel Reyes,Mexico,D,200,2,2,4,1.800,Advanced to Knockout
+Jarell Quansah,England,D,200,3,0,3,1.350,Advanced to Knockout
+Brian Gutiérrez,Mexico,M,198,2,2,4,1.818,Advanced to Knockout
+Ivan Šunjić,Bosnia & Herzegovina,M,198,5,0,5,2.273,Advanced to Knockout
+Ngal'ayel Mukau,DR Congo,M,196,2,3,5,2.296,Advanced to Knockout
+Sebastian Berhalter,USA,M,195,3,3,6,2.769,Advanced to Knockout
+Moise Bombito,Canada,D,194,1,1,2,0.928,Advanced to Knockout
+Marcos Llorente,Spain,D,193,7,1,8,3.731,Advanced to Knockout
+Cédric Bakambu,DR Congo,F,193,0,0,0,0.000,Advanced to Knockout
+Giuliano Simeone,Argentina,M,193,6,1,7,3.264,Advanced to Knockout
+Ao Tanaka,Japan,M,192,9,1,10,4.688,Advanced to Knockout
+Federico Viñas,Uruguay,F,192,2,1,3,1.406,Eliminated in Group Stage
+Pathé Ismaël Ciss,Senegal,M,191,1,0,1,0.471,Advanced to Knockout
+Thomas Meunier,Belgium,D,190,3,2,5,2.368,Advanced to Knockout
+Michael Gregoritsch,Austria,F,190,1,0,1,0.474,Advanced to Knockout
+Damián Bobadilla,Paraguay,M,190,6,5,11,5.211,Advanced to Knockout
+Cyle Larin,Canada,F,189,0,0,0,0.000,Advanced to Knockout
+Pavel Šulc,Czechia,F,189,2,0,2,0.952,Eliminated in Group Stage
+Gonzalo Montiel,Argentina,D,189,3,3,6,2.857,Advanced to Knockout
+Nikola Vlašić,Croatia,M,189,8,2,10,4.762,Advanced to Knockout
+Wilson Isidor,Haiti,F,188,1,1,2,0.957,Eliminated in Group Stage
+Zidane Iqbal,Iraq,M,188,4,1,5,2.394,Eliminated in Group Stage
+Donyell Malen,Netherlands,F,187,0,0,0,0.000,Advanced to Knockout
+Ben Gannon-Doak,Scotland,M,187,2,0,2,0.963,Eliminated in Group Stage
+Moteb Al-Harbi,Saudi Arabia,D,187,0,4,4,1.925,Eliminated in Group Stage
+Manuel Ugarte,Uruguay,M,186,3,3,6,2.903,Eliminated in Group Stage
+Nathan Patterson,Scotland,D,186,4,3,7,3.387,Eliminated in Group Stage
+Amad Diallo,Côte d'Ivoire,M,184,5,2,7,3.424,Advanced to Knockout
+Takehiro Tomiyasu,Japan,D,184,2,3,5,2.446,Advanced to Knockout
+Michal Sadílek,Czechia,M,183,4,3,7,3.443,Eliminated in Group Stage
+Chemsdine Talbi,Morocco,M,183,2,2,4,1.967,Advanced to Knockout
+Nathan-Dylan Saliba,Canada,M,182,6,4,10,4.945,Advanced to Knockout
+Ali Al-Hamadi,Iraq,F,181,3,2,5,2.486,Eliminated in Group Stage
+Josué Casimir,Haiti,M,181,0,0,0,0.000,Eliminated in Group Stage
+Hakan Çalhanoğlu,Türkiye,M,180,4,1,5,2.500,Eliminated in Group Stage
+Grant Hanley,Scotland,D,180,1,1,2,1.000,Eliminated in Group Stage
+Derrick Luckassen,Ghana,D,180,3,0,3,1.500,Advanced to Knockout
+Redouane Halhal,Morocco,D,180,1,1,2,1.000,Advanced to Knockout
+Merih Demiral,Türkiye,D,180,1,1,2,1.000,Eliminated in Group Stage
+Stjepan Radeljić,Bosnia & Herzegovina,D,180,3,0,3,1.500,Advanced to Knockout
+Abdullah Al-Khaibari,Saudi Arabia,M,180,2,2,4,2.000,Eliminated in Group Stage
+Abdulla Abdullaev,Uzbekistan,M,180,4,3,7,3.500,Eliminated in Group Stage
+Philipp Lienhart,Austria,D,180,1,1,2,1.000,Advanced to Knockout
+Sherzod Nasrullaev,Uzbekistan,D,180,2,2,4,2.000,Eliminated in Group Stage
+Patrik Schick,Czechia,F,180,0,0,0,0.000,Eliminated in Group Stage
+Omar Rekik,Tunisia,D,180,4,3,7,3.500,Eliminated in Group Stage
+Steve Kapuadi,DR Congo,D,180,1,1,2,1.000,Advanced to Knockout
