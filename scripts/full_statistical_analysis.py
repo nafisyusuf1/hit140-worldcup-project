@@ -80,8 +80,8 @@ SAMPLE_SIZE_PER_GROUP = 64
 ALPHA = 0.05
 
 # Folders where the input files live, and where we save our outputs
-UPLOAD_DIR = "/mnt/user-data/uploads"
-OUTPUT_DIR = "/mnt/user-data/outputs"
+UPLOAD_DIR = "data"
+OUTPUT_DIR = "outputs"
 
 
 # ======================================================================
