@@ -52,8 +52,8 @@ ASSUMED_EFFECT_SIZE = 0.5  # medium effect (Cohen's d); no pilot data exists
                            # standard default assumption. State this
                            # assumption in the report.
 
-UPLOAD_DIR = "/mnt/user-data/uploads"
-OUTPUT_DIR = "/mnt/user-data/outputs"
+UPLOAD_DIR = "data"
+OUTPUT_DIR = "outputs"
 
 rng = np.random.default_rng(RANDOM_SEED)
 
