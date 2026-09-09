@@ -1,0 +1,5 @@
+Task,Outcome variable,Group A,Mean A,Group B,Mean B,Mean difference,95% CI lower,95% CI upper,t-statistic,p-value
+Task 1,defensive_actions_per90,Advanced to Knockout,1.9329,Eliminated in Group Stage,2.5328,-0.5999,-1.0255,-0.1743,-2.7915,0.0061
+Task 2,total_yellow,Knockout stage,4.4,Group stage,4.6,-0.2,-3.3126,2.9126,-0.1482,0.8858
+Task 3,SoTpct,Above median,35.6,Below median,30.052,5.548,0.7259,10.3701,2.3221,0.0252
+Task 4,distance_km_per90,Under 25,9.6935,25 and older,9.5594,0.1341,-0.3289,0.5972,0.5734,0.5675
